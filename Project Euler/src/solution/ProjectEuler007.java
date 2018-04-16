@@ -50,12 +50,12 @@ public class ProjectEuler007 {
 
 	static boolean isPrime(long number) {
 		boolean answer = true;
-		 for(int i=3; i*i<=number; i+=2){
-             if(number%i==0) {
-            	 answer= false;
-                 break;
-             }
-         }
-		return answer;
+		for(int i=3; i*i<=number; i+=2){
+             		if(number%i==0) {
+            	 		answer= false;
+                 		break;
+             		}
+         	}
+	return answer;
 	}
 }
