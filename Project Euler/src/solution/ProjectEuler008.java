@@ -16,8 +16,8 @@ public class ProjectEuler008 {
 		int digitsNumber = scanner.nextInt();
 		int productArea = scanner.nextInt();
 		String number = scanner.next();
-        char[] consecutiveDigits = number.toCharArray();
-        findLargestProduct(consecutiveDigits, productArea);        
+        	char[] consecutiveDigits = number.toCharArray();
+        	findLargestProduct(consecutiveDigits, productArea);        
 	}
 
 	private static void findLargestProduct(char[] digits, int area) {
