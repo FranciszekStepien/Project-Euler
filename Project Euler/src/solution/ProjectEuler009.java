@@ -34,7 +34,7 @@ public class ProjectEuler009 {
 		for(firstLength = maxLength; firstLength >= 3; firstLength--){
 			findMaxProduct();
 			if(maxProduct != -1)
-				break;
+			        break;
 		}		
 	}
 
