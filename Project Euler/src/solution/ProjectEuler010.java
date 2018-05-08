@@ -22,14 +22,14 @@ public class ProjectEuler010 {
 
 	private static void findPrimes(int maxNumber) {
 		primeNumbers.add(2);
-		for(int i = 3; i <= maxNumber; i++) 
+		for(int i = 3; i <= maxNumber; i += 2) 
 			if(isPrime(i))
 				primeNumbers.add(i);
 	}
 
 	static boolean isPrime(long number) {
 		boolean answer = true;
-		for(int i=3; i*i<=number; i+=2)
+		for(int i = 3; i*i <= number; i += 2)
 			if(number%i==0) {
 				answer= false;
                 break;
@@ -50,6 +50,6 @@ public class ProjectEuler010 {
 				break;
 			solution += prime;
 		}
-		 System.out.println(solution);
+		System.out.println(solution);
 	}
 }
