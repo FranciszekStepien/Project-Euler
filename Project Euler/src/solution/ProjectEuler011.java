@@ -3,7 +3,7 @@ package solution;
 import java.util.Scanner;
 
 public class ProjectEuler011 {
-	 private final static int GRID_SIZE = 20;
+	private final static int GRID_SIZE = 20;
 	static int[][] grid = new int[GRID_SIZE][GRID_SIZE];
 	
 	public static void main(String[] args) {
