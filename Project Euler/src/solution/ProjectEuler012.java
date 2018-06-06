@@ -67,7 +67,7 @@ public class ProjectEuler012 {
 				triagleNumbers[divisorsFound]=
 						(triagleCount - 1) * triagleCount / 2;
 				divisorsFound++;
-        }
+        	}
 	}
 
 	private static void printSolutions(int[] cases) {
@@ -77,6 +77,6 @@ public class ProjectEuler012 {
 			long minNumberWithDividors = 
 					triagleNumbers[dividorsToFound];
             System.out.println(minNumberWithDividors);
-        }		
+        	}		
 	}
 }
