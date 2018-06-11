@@ -3,7 +3,7 @@ package solution;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class ProjectEuler013  {
+public class ProjectEuler013 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int numbers = scanner.nextInt();
